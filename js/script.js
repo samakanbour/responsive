@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	$("#js-mobile-navigation-button").click(function () {
+	$("#sidebar-toggle").click(function () {
 		return $("#js-mobile-navigation td").each(function (e) {
 			var t = this;
 			return setTimeout(function () {
